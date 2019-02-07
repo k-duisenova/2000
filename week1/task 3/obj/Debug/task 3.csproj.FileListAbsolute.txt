@@ -1,0 +1,7 @@
+C:\Users\UserPC\week1\task 3\bin\Debug\ConsoleApp2.exe.config
+C:\Users\UserPC\week1\task 3\bin\Debug\ConsoleApp2.exe
+C:\Users\UserPC\week1\task 3\bin\Debug\ConsoleApp2.pdb
+C:\Users\UserPC\week1\task 3\obj\Debug\task 3.csprojAssemblyReference.cache
+C:\Users\UserPC\week1\task 3\obj\Debug\task 3.csproj.CoreCompileInputs.cache
+C:\Users\UserPC\week1\task 3\obj\Debug\ConsoleApp2.exe
+C:\Users\UserPC\week1\task 3\obj\Debug\ConsoleApp2.pdb
