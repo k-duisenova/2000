@@ -19,8 +19,14 @@ namespace task2
         }
         public void PrintInfo()
         {
-            YearOfStudy = int.Parse(Console.ReadLine());
-            Console.WriteLine("NAME:" + name + " " + "ID:" + id + " " + "Year of study:" + (YearOfStudy+1));
+            YearOfStudy = 0;
+            for (int i = 0; i < 5; i++)
+            {
+                YearOfStudy++;
+                Console.WriteLine("NAME:" + name + " " + "ID:" + id + " " + "Year of study:" + (YearOfStudy));
+            }
+            
+            
         }
     }
     class Program
@@ -28,7 +34,11 @@ namespace task2
         static void Main(string[] args)
         {
             Student s = new Student("Duisenova Kuralay", "18BD110770");
+            
             s.PrintInfo();
+            
+            
+
         }
     }
 }
