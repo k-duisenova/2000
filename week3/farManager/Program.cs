@@ -38,7 +38,7 @@ namespace Task1
             }
             set
             {
-                if (value < 0) selectedIndex = Directories.Length + Files.Length - 1; // going down through the list
+                if (value < 0) selectedIndex = Directories.Length + Files.Length - 1; // going to the end
                 else if (value > Directories.Length + Files.Length - 1) selectedIndex = 0; // returning back to the start
                 else selectedIndex = value;
             }
@@ -131,7 +131,7 @@ namespace Task1
                             history.Pop();
                     }
                     else
-                        mode = FSIMode.DIR; // if it is the first layer, then everything stays the same
+                        mode = FSIMode.DIR; // if it is the file then it returns back to the folder
                 }
 
 
@@ -149,7 +149,7 @@ namespace Task1
                     }
                     history.Pop();
                     
-                    // if all layers are closed
+                    // if all layers are closed(i.e. you were in the main directory)
                     if (history.Count() == 0)
                     {
                         Layer lay = new Layer
@@ -198,7 +198,7 @@ namespace Task1
                     }
 
                     string path = fullname.Remove(fullname.Length - name.Length);
-                    Console.WriteLine("Please enter the new name");
+                    Console.WriteLine("Please enter the new name and extension of the file if it is necessary");
                     string newname = Console.ReadLine();
 
                     if (selectedMode == 1)
