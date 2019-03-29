@@ -1,0 +1,7 @@
+C:\Users\UserPC\source\repos\week7lab6task1\week7lab6task1\bin\Debug\week7lab6task1.exe.config
+C:\Users\UserPC\source\repos\week7lab6task1\week7lab6task1\bin\Debug\week7lab6task1.exe
+C:\Users\UserPC\source\repos\week7lab6task1\week7lab6task1\bin\Debug\week7lab6task1.pdb
+C:\Users\UserPC\source\repos\week7lab6task1\week7lab6task1\obj\Debug\week7lab6task1.csprojAssemblyReference.cache
+C:\Users\UserPC\source\repos\week7lab6task1\week7lab6task1\obj\Debug\week7lab6task1.csproj.CoreCompileInputs.cache
+C:\Users\UserPC\source\repos\week7lab6task1\week7lab6task1\obj\Debug\week7lab6task1.exe
+C:\Users\UserPC\source\repos\week7lab6task1\week7lab6task1\obj\Debug\week7lab6task1.pdb
